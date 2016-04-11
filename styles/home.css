@@ -1,0 +1,60 @@
+/* Desktop */
+@media only screen and (min-width: 494px) {
+
+    .home-container-1 {
+        width: 49%;
+        float: right;
+    }
+
+    .home-container-2 {
+        width: 49%;
+        float: left;
+    }
+
+    .home-name {
+        margin: 10% 0 0 0;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 493px) {
+
+    .home-name {
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+
+    .home-school {
+        text-align: center;
+    }
+
+    .home-description {
+        text-align: center;
+    }
+}
+
+.home-self-photo {
+    width: 100%;
+    height: 100%;
+}
+
+.home-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+}
+
+.home-content-container {
+    margin: 0 0 1em 0;
+}
+
+.home-school {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    margin: 0 0 .5em 0;
+}
+
+.home-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin: .5em 0 .25em 0;
+}
