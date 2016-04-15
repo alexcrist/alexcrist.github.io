@@ -22,7 +22,7 @@ function toggleLightMode() {
     index = (index + 1) % 2;
 
     // Toggle text color
-    changeColor('a, .name, .light-button, .content-description', {
+    changeColor('a, .light-button, .content-description', {
         color: COLORS.text[index],
         borderColor: COLORS.text[index]
     });
