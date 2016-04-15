@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body id="body">
 
 <div class="header">
     <div class="name">Alex Crist</div><div class="title">STUDENT</div>
@@ -39,5 +39,10 @@
     </div>
 </div>
 
+<script src="./lib/jquery.min.js"></script>
+<script src="./lib/jquery.color.js"></script>
+<script>
+    $('#body').animate({backgroundColor: '#333333'}, 2500)
+</script>
 </body>
 </html>
