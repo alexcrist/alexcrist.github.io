@@ -5,44 +5,46 @@
     <meta name="viewport" content="width=device-width">
     <title>Alex Crist</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="styles/index.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
 
-<div class="header">
-    <div class="name">Alex Crist</div>
-    <div class="light-button no-highlight" id="light-button">NIGHT</div>
+<h1 class="title">Alex Crist</h1>
+<p class="desc">Northeastern University, Computer Science, 2019</p>
+
+<hr class="break">
+
+<h2 class="sub-title">Computer knowledge</h2>
+<p class="desc">10 = Very comfortable, 0 = Less comfortable</p>
+
+<div class="graph-container">
+    <p class="desc">Languages</p>
+    <canvas id="languages" width="600" height="300"></canvas>
+</div>
+<div class="graph-container">
+    <p class="desc">Frameworks</p>
+    <canvas id="frameworks" width="600" height="300"></canvas>
+</div>
+<div class="graph-container">
+    <p class="desc">Version control</p>
+    <canvas id="version" width="600" height="300"></canvas>
+</div>
+<div class="graph-container">
+    <p class="desc">Editors</p>
+    <canvas id="editors" width="600" height="300"></canvas>
 </div>
 
-<div class="content-container">
-    <div class="content">
-        <div class="content-header">ABOUT</div>
-        <div class="content-description">Student at Northeastern Unversity studying CS graduating in 2019.</div>
-        <div class="content-description">Avid rock climber and member of the Northeastern Climbing Team.</div>
-        <div class="quote">Neural-network and web app enthusiast. Not a fan of vegetables or salad. Likes soft lullabies and sad rap music. Often seen wearing baseball cap or samurai man bun.</div>
-        <div class="author">- Anonymous Coworker</div>
-    </div>
+<h2 class="sub-title">Projects</h2>
+<div>neural-network</div>
+<div>compact-adventure</div>
+<div>reddit-read-only</div>
+<div>this-website</div>
 
-    <div class="content">
-        <div class="content-header">PROJECTS</div>
-        <div class="content-description"><a href="https://github.com/alexcrist/RedditReadOnly">Reddit Read Only</a> - a lightweight Reddit reader for Android.</div>
-        <div class="content-description"><a href="https://github.com/alexcrist/mean-skeleton">MEAN Skeleton</a> - a starting scaffold for MEAN stack apps.</div>
-        <div class="content-description"><a href="https://github.com/alexcrist/dotbot">Dotbot</a> - a multi-platform puzzle game.</div>
-        <div class="content-description"><a href="https://github.com/alexcrist/alexcrist.github.io">This Website</a> - view the code behind this website.</div>
-    </div>
-
-    <div class="content">
-        <div class="content-header">SKILLS</div>
-        <div class="content-description"><span class="category">LANGUAGES</span>Java, Python, JavaScript</div>
-        <div class="content-description"><span class="category">FRAMEWORKS</span>Android, MEAN</div>
-        <div class="content-description"><span class="category">OTHER</span>Git, Vim, Bash</div>
-    </div>
-</div>
-
-<script src="./lib/jquery.min.js"></script>
-<script src="./lib/jquery.color.js"></script>
-<script src="./js/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
