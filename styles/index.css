@@ -21,15 +21,6 @@
     padding: 10px;
 }
 
-.left {
-    display: inline;
-}
-
-.right {
-    display: inline;
-    float: right;
-}
-
 .projects {
     width: 600px;
     margin: auto;
@@ -39,11 +30,4 @@
     padding: 10px;
     font-size: 12pt;
 }
-
-
-
-
-
-
-
 
