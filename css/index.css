@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.content {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.header {
+}
+
+.header__name {
+  display: inline-block;
+  font-family: 'Nixie One', cursive;
+  font-size: 60px;
+  margin: 0;
+  padding: 10px 30px 15px;
+}
+
+.header__image {
+  display: inline-block;
+  background: black;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-bottom: -20px;
+}
+
+.header__description {
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  padding: 45px 30px 15px;
+  vertical-align: top;
+}
+
+.buttons {
+  box-shadow: 0 0 0 0 #000;
+  overflow: visible;
+}
+
+.buttons__container {
+  width: 100%;
+  height: 60px;
+  line-height: 55px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.buttons__button {
+  display: inline-block;
+  width: 46%;
+  margin: 2%;
+  max-width: 480px;
+  height: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Limelight', cursive;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.buttons__button:hover {
+  cursor: pointer;
+}
+
+.buttons__button:active {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background: #efefef;
+}
+
+.buttons__button-selected {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background: #efefef;
+}
+
+.buttons__button-1 {
+}
+
+.buttons__button-2 {
+}
+
+.sections {
+}
+
+.sections__container {
+  width: 200%;
+  transition: all 0.4s ease-in-out;
+}
+
+.sections__container-slide {
+  margin-left: -100%;
+}
+
+.sections__section {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.sections__section-1 {
+}
+
+.sections__section-2 {
+}
