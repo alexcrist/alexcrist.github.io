@@ -1,10 +1,4 @@
-$(domReady);
-$('.buttons__button-1').click(button1Clicked);
-$('.buttons__button-2').click(button2Clicked);
-
-function domReady() {
-  $('.buttons__button-1').addClass('buttons__button-selected');
-
+$(function () {
   var reposUrl = 'https://api.github.com/users/alexcrist/repos';
   var relevantRepos = [
     { name: 'neural-network', image: 'assets/29.jpg' },
@@ -13,7 +7,7 @@ function domReady() {
     { name: 'ballmer-peak', image: 'assets/29.jpg' }
   ];
   getRepos(reposUrl, relevantRepos);
-}
+});
 
 function getRepos(reposUrl, relevantRepos) {
   var success = function (res) {
@@ -25,7 +19,6 @@ function getRepos(reposUrl, relevantRepos) {
       repo.description = otherRepo.description;
       repo.stargazersCount = otherRepo.stargazers_count;
     });
-    console.log(relevantRepos);
     populateSection1(relevantRepos);
   };
 
@@ -44,24 +37,25 @@ function populateSection1(repos) {
     var html = '<figure class="hover-effect">\
                   <img src="' + repo.image + '"/>\
                   <figcaption>\
-                    <h2>' + repo.name + '</h2>\
+                    <h2>' + boldify(repo.name) + '</h2>\
                     <p>' + repo.description + '</p>\
-                    <a href="#">View more</a>\
+                    <a href="' + repo.htmlUrl + '">View more</a>\
                   </figcaption>\
                 </figure>';
 
+    $('.sections__fetching').remove();
     $('.sections__section-1 .grid').append(html);
   });
 }
 
-function button1Clicked() {
-  $('.sections__container').removeClass('sections__container-slide');
-  $('.buttons__button-1').addClass('buttons__button-selected');
-  $('.buttons__button-2').removeClass('buttons__button-selected');
+function boldify(name) {
+  var index = name.indexOf('-');
+  if (index === -1) {
+    return name;
+  }
+  return name.substring(0, index)
+    + '<span>'
+    + name.substring(index + 1, name.length)
+    + '</span>';
 }
 
-function button2Clicked() {
-  $('.sections__container').addClass('sections__container-slide');
-  $('.buttons__button-1').removeClass('buttons__button-selected');
-  $('.buttons__button-2').addClass('buttons__button-selected');
-}

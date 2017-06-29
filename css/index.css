@@ -10,14 +10,19 @@ body {
 }
 
 .header {
+  max-width: 1000px;
+  margin: auto;
 }
 
 .header__name {
   display: inline-block;
-  font-family: 'Nixie One', cursive;
+  font-family: 'Lato', sans-serif;
   font-size: 60px;
+  font-weight: 300;
   margin: 0;
-  padding: 10px 30px 15px;
+  padding: 10px 30px 15px 2%;
+  width: 125px;
+  text-align: center;
 }
 
 .header__image {
@@ -27,14 +32,18 @@ body {
   height: 150px;
   border-radius: 75px;
   margin-bottom: -20px;
+  margin-right: 10px;
 }
 
 .header__description {
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
-  padding: 45px 30px 15px;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 24px 0 15px 2%;
   vertical-align: top;
+  max-width: 550px;
+  width: 60%;
 }
 
 .buttons {
@@ -106,4 +115,36 @@ body {
 }
 
 .sections__section-2 {
+}
+
+.sections__header {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+  padding: 15px 0 0;
+  margin-bottom: 0;
+}
+
+.sections__description {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  max-width: 1000px;
+  margin: 10px auto;
+  line-height: 28px;
+}
+
+.sections__fetching {
+  padding-top: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: #999;
+}
+
+.sections__chart {
+  width: 600px;
+  height: 300px;
+  margin: auto;
 }

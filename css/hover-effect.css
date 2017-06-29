@@ -5,10 +5,10 @@
   position: relative;
   clear: both;
   margin: 0 auto;
-  padding: 1em 0 4em;
   max-width: 1000px;
   list-style: none;
   text-align: center;
+  overflow: auto;
 }
 
 .grid figure {
@@ -36,9 +36,8 @@
 }
 
 .grid figure figcaption {
-  padding: 2em;
+  padding: 0 2em;
   color: #fff;
-  text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -67,12 +66,13 @@
 }
 
 .grid figure h2 {
+  font-family: 'Lato', sans-serif;
   word-spacing: -0.15em;
   font-weight: 300;
 }
 
 .grid figure h2 span {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .grid figure h2,
@@ -81,6 +81,7 @@
 }
 
 .grid figure p {
+  font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 1px;
   font-size: 68.5%;
 }
@@ -124,8 +125,8 @@ figure.hover-effect img {
 
 figure.hover-effect h2,
 figure.hover-effect p {
-  background: #fff;
-  color: #2d434e;
+  background: #111;
+  color: #eee;
 }
 
 figure.hover-effect h2 {
