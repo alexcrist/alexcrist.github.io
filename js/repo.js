@@ -1,7 +1,7 @@
 $(function () {
   var reposUrl = 'https://api.github.com/users/alexcrist/repos';
   var relevantRepos = [
-    { name: 'neural-network', image: 'assets/29.jpg' },
+    { name: 'neural-network', image: 'assets/neural.png' },
     { name: 'van-drivers', image: 'assets/29.jpg' },
     { name: 'photo-booth', image: 'assets/29.jpg' },
     { name: 'ballmer-peak', image: 'assets/29.jpg' }
@@ -44,7 +44,7 @@ function populateSection1(repos) {
                 </figure>';
 
     $('.sections__fetching').remove();
-    $('.sections__section-1 .grid').append(html);
+    $('.sections__section-left .grid').append(html);
   });
 }
 

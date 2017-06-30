@@ -13,41 +13,70 @@
 
 <div class="header content">
   <h1 class="header__name">Alex<br>Crist</h1>
-  <div class="header__image header__image-right"></div>
-  <div class="header__description">I grew up in Seattle and live in Boston studying at Northeastern. I'm a computer science major when I'm not on co-op pretending to be an adult. I'm an avid rock climber and have dreams of car dwelling after I&nbsp;graduate in June 2019.</div>
+  <div class="header__image"></div>
+  <div class="header__description">I grew up in Seattle and now live in Boston attending Northeastern University. I study computer science when I'm not on a co-op, pretending to be an adult. I'm an avid rock climber and have dreams of living in my car after I&nbsp;graduate in June 2019.</div>
 </div>
 
 <div class="buttons content">
   <div class="buttons__container">
-    <div class="buttons__button buttons__button-1">Nerd Stuff</div><!--
- --><div class="buttons__button buttons__button-2">Cool Stuff</div>
+    <div class="buttons__button buttons__button-left">Projects</div><!--
+ --><div class="buttons__button buttons__button-right">Places</div>
   </div>
 </div>
 
 <div class="sections content">
   <div class="sections__container">
-    <div class="sections__section sections__section-1">
-    <h2 class="sections__header">― Projects ―</h2>
-    <p class="sections__description">A collection of my GitHub projects. Hover for details.</p>
-    <p class="sections__fetching">Fetching repositories from GitHub...</p>
-    <div class="grid"></div>
-    <h2 class="sections__header">― Experience ―</h2>
-    <p class="sections__description">My level of familiarity with different technologies.</p>
-    <div class="sections__chart">
-      <canvas id="technologies-chart" width="600" height="300"></canvas>
-    </div>
+    <div class="sections__section sections__section-left">
+      <h2 class="sections__header">― Projects ―</h2>
+      <p class="sections__description">A collection of my GitHub projects. Hover for details.</p>
+      <p class="sections__fetching">Fetching repositories from GitHub...</p>
+      <div class="grid"></div>
     </div><!--
- --><div class="sections__section sections__section-2">
+ --><div class="sections__section sections__section-right">
+      <h2 class="sections__header">― Places ―</h2>
+      <p class="sections__description">A collection of my favorite places I've been to.</p>
+      <div class="grid">
+        <figure class="hover-effect">
+          <img src="assets/29.jpg"/>
+          <figcaption>
+            <h2>Something<span>Else</span></h2>
+            <p>This is a description</p>
+            <a href="#">View more</a>
+          </figcaption>
+        </figure>
+        <figure class="hover-effect">
+          <img src="assets/29.jpg"/>
+          <figcaption>
+            <h2>Something<span>Else</span></h2>
+            <p>This is a description</p>
+            <a href="#">View more</a>
+          </figcaption>
+        </figure>
+        <figure class="hover-effect">
+          <img src="assets/29.jpg"/>
+          <figcaption>
+            <h2>Something<span>Else</span></h2>
+            <p>This is a description</p>
+            <a href="#">View more</a>
+          </figcaption>
+        </figure>
+        <figure class="hover-effect">
+          <img src="assets/29.jpg"/>
+          <figcaption>
+            <h2>Something<span>Else</span></h2>
+            <p>This is a description</p>
+            <a href="#">View more</a>
+          </figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </div>
 
-<hr>
-
-
-
 <script src="vendor/jquery-3.2.1.min.js"></script>
 <script src="vendor/Chart.min.js"></script>
+<script src="vendor/lightbox/js/lightbox.min.js"></script>
+
 <script src="js/button.js"></script>
 <script src="js/chart.js"></script>
 <script src="js/repo.js"></script>

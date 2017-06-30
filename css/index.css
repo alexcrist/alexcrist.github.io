@@ -25,13 +25,21 @@ body {
   text-align: center;
 }
 
+.header__name:hover {
+  cursor: pointer;
+  content: 'Contact';
+}
+
 .header__image {
   display: inline-block;
-  background: black;
+  background-image: url('../assets/alexcrist.jpg');
+  background-size: cover;
+  background-position-x: -11px;
   width: 150px;
   height: 150px;
   border-radius: 75px;
   margin-bottom: -20px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
   margin-right: 10px;
 }
 
@@ -47,7 +55,6 @@ body {
 }
 
 .buttons {
-  box-shadow: 0 0 0 0 #000;
   overflow: visible;
 }
 
@@ -87,12 +94,6 @@ body {
   background: #efefef;
 }
 
-.buttons__button-1 {
-}
-
-.buttons__button-2 {
-}
-
 .sections {
 }
 
@@ -109,12 +110,6 @@ body {
   display: inline-block;
   width: 50%;
   height: 100%;
-}
-
-.sections__section-1 {
-}
-
-.sections__section-2 {
 }
 
 .sections__header {
