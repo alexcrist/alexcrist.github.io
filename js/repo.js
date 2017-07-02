@@ -1,10 +1,10 @@
 $(function () {
   var reposUrl = 'https://api.github.com/users/alexcrist/repos';
   var relevantRepos = [
-    { name: 'neural-network', image: 'assets/neural.png' },
-    { name: 'van-drivers', image: 'assets/29.jpg' },
-    { name: 'photo-booth', image: 'assets/29.jpg' },
-    { name: 'ballmer-peak', image: 'assets/29.jpg' }
+    { name: 'neural-network', image: 'assets/neural-network.jpg' },
+    { name: 'van-drivers', image: 'assets/van-drivers.jpg' },
+    { name: 'photo-booth', image: 'assets/photo-booth.jpg' },
+    { name: 'ballmer-peak', image: 'assets/ballmer-peak.jpg' }
   ];
   getRepos(reposUrl, relevantRepos);
 });

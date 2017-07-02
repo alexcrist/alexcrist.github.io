@@ -19,7 +19,7 @@
   margin: 1.5% 2%;
   min-width: 320px;
   max-width: 480px;
-  max-height: 345px;
+  max-height: 340px;
   width: 46%;
   height: auto;
   background: #3085a3;
@@ -36,9 +36,9 @@
 }
 
 .grid figure figcaption {
-  padding: 0 2em;
+  padding: 0 30px;
   color: #fff;
-  font-size: 1.25em;
+  font-size: 20px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -53,7 +53,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: calc(100% - 4em);
+  width: calc(100% - 60px);
   height: 100%;
 }
 
@@ -67,7 +67,6 @@
 
 .grid figure h2 {
   font-family: 'Lato', sans-serif;
-  word-spacing: -0.15em;
   font-weight: 300;
 }
 
@@ -131,8 +130,8 @@ figure.hover-effect p {
 
 figure.hover-effect h2 {
   position: relative;
-  margin-top: 2em;
-  padding: 0.25em;
+  margin-top: 30px;
+  padding: 7px;
 }
 
 figure.hover-effect h2:before {
@@ -140,8 +139,8 @@ figure.hover-effect h2:before {
 }
 
 figure.hover-effect p {
-  margin-top: 1em;
-  padding: 0.5em;
+  margin-top: 15px;
+  padding: 10px;
   font-weight: 800;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;

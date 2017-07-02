@@ -15,6 +15,7 @@ body {
 }
 
 .header__name {
+  color: #000;
   display: inline-block;
   font-family: 'Lato', sans-serif;
   font-size: 60px;
@@ -25,9 +26,16 @@ body {
   text-align: center;
 }
 
+.header__name::after {
+  content: 'Alex Crist';
+}
+
 .header__name:hover {
   cursor: pointer;
-  content: 'Contact';
+}
+
+.header__name:hover::after {
+  content: 'Email Me';
 }
 
 .header__image {
@@ -110,6 +118,14 @@ body {
   display: inline-block;
   width: 50%;
   height: 100%;
+}
+
+.sections__section-left {
+  float: left;
+}
+
+.sections__section-right {
+  float: right;
 }
 
 .sections__header {
