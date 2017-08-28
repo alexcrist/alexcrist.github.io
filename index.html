@@ -7,7 +7,7 @@
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/hover-effect.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Limelight|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Limelight|Source+Sans+Pro:400,600" rel="stylesheet">
 </head>
 <body>
 
@@ -16,63 +16,22 @@
     <h1 class="header__name"></h1>
   </a>
   <div class="header__image"></div>
-  <div class="header__description">I grew up in Seattle and now live in Boston attending Northeastern University. I study computer science when I'm not on a co-op, pretending to be an adult. I'm an avid rock climber and have dreams of living in my car after I&nbsp;graduate in June 2019.</div>
+  <div class="header__desc">Computer science student living in Boston studying at Northeastern University. Loves rock climbing, being outside, making things, and experiencing new things. Graduating in June 2019.</div>
 </div>
 
 <div class="buttons content">
-  <div class="buttons__container">
-    <div class="buttons__button buttons__button-left">Code</div><!--
- --><div class="buttons__button buttons__button-right">Photos</div>
-  </div>
+  <div class="buttons__container"></div>
 </div>
 
 <div class="sections content">
-  <div class="sections__container">
-    <div class="sections__section sections__section-left">
-      <h2 class="sections__header">― Code ―</h2>
-      <p class="sections__description">A collection of my GitHub projects. Hover for details.</p>
-      <p class="sections__fetching">Fetching repositories from GitHub...</p>
-      <div class="grid"></div>
-    </div><!--
- --><div class="sections__section sections__section-right">
-      <h2 class="sections__header">― Photos ―</h2>
-      <p class="sections__description">A few collections of my favorite photos.</p>
-      <div class="grid">
-        <figure class="hover-effect">
-          <img src="assets/portraits.jpg"/>
-          <figcaption>
-            <h2>friendly<span>faces</span></h2>
-            <p>Up close and personal portraits</p>
-            <a href="https://goo.gl/photos/YziF2WZEcUPsW3sy8">View more</a>
-          </figcaption>
-        </figure>
-        <figure class="hover-effect">
-          <img src="assets/boston.jpg"/>
-          <figcaption>
-            <h2>boston<span>scenes</span></h2>
-            <p>Events and landscapes in Boston</p>
-            <a href="https://goo.gl/photos/c743F5Dix6Zn1JHo7">View more</a>
-          </figcaption>
-        </figure>
-        <figure class="hover-effect">
-          <img src="assets/climbing.jpg"/>
-          <figcaption>
-            <h2>pebble<span>mounting</span></h2>
-            <p>Equal parts climbing and flailing</p>
-            <a href="https://goo.gl/photos/u56i4q9Pbb1B7JMw8">View more</a>
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
+  <div class="sections__container"></div>
 </div>
 
+<!-- Load vendor scripts -->
 <script src="vendor/jquery-3.2.1.min.js"></script>
 <script src="vendor/Chart.min.js"></script>
-<script src="vendor/lightbox/js/lightbox.min.js"></script>
 
-<script src="js/button.js"></script>
-<script src="js/chart.js"></script>
-<script src="js/repo.js"></script>
+<!-- Load custom scripts -->
+<script src="js/content.js"></script>
 </body>
 </html>
