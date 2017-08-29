@@ -29,11 +29,12 @@ function renderSectionContent(title, desc, items) {
 function getItemsHtml(items) {
   var html = '';
   items.forEach(function (item) {
-    html = html
-      + '<div class="item">'
-      + '<div class="item__title">' + item.title + '</div>'
-      + '<div class="item__desc">' + item.desc + '</div>'
-      + '</div>';
+    var title = '<div class="item__title">' + item.title + '</div>';
+    if (item.url) {
+      title = '<a target="_blank" href="' + item.url + '">' + title + '</a>';
+    }
+    var desc = '<div class="item__desc">' + item.desc + '</div>';
+    html += '<div class="item">' + title + desc + '</div>';
   });
   return html;
 }
