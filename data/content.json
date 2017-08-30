@@ -5,7 +5,7 @@
     "items": [
       {
         "title": "Van Drivers",
-        "desc": "A web application (Node, AngularJS, MongoDB) that I created to better organize van scheduling for my university's climbing team. The application is deployed on Heroku and integrates into our team's Slack channel.",
+        "desc": "A web app (Node, AngularJS, MongoDB) that organizes van scheduling for my university's climbing team. The app is deployed on Heroku and integrates into our team's Slack channel.",
         "url": "https://github.com/alexcrist/van-drivers"
       },
       {
@@ -20,12 +20,12 @@
       },
       {
         "title": "Neural Network",
-        "desc": "This project was an exploration into machine learning I built after watching Google's AlphaGo domninate at Go using deep neural networks. This simple Python network has one hidden layer and can be applied to a variety of numerical datasets.",
+        "desc": "An exploration into machine learning inspired after watching Google's AlphaGo domninate at Go using deep neural networks. This simple Python network has one hidden layer and can be applied to a variety of numerical datasets.",
         "url": "https://github.com/alexcrist/neural-network"
       },
       {
         "title": "This Website",
-        "desc": "Meta! This is my personal website to summarize my major projects, skills, and work experience. Simple, responsive, and set up to allow any number of sections and sub-sections depending on the data given in the JSON content file.",
+        "desc": "Meta! This is my personal website to summarize my major projects, skills, and work experience. Simple, responsive, and flexible enough to allow variable numbers of sections and sub-sections depending on the data given in the JSON content file.",
         "url": "http://github.com/alexcrist/alexcrist.github.io"
       }
     ]
@@ -36,23 +36,23 @@
     "items": [
       {
         "title": "Javascript",
-        "desc": "I've used Javascript to develop web applications in profressional environments (WHOOP, MITRE) in conjunction with Node.js, React, and AngularJS. I enjoy using Javascript when starting up new projects for its lightweight syntax and flexible interpretation."
+        "desc": "I've used Javascript to develop web applications in profressional environments (WHOOP, MITRE) sometimes in conjunction with Node.js, React, or AngularJS. I enjoy using Javascript when starting up new projects for its lightweight syntax and flexible interpretation."
       },
       {
         "title": "Python",
-        "desc": "My favorite language and my go-to choice for most non-web-application projects. I've been writing Python since highschool and have used it most recently developing internal tools at WHOOP."
+        "desc": "My favorite language and go-to choice for most non-web-app projects. I've been writing Python since highschool and have used it most recently for developing internal tools at WHOOP."
       },
       {
         "title": "Java",
-        "desc": "My experience with Java comes from writing Android applications and university courses. I love using Java when working with multiple people because of its clear and verbose syntax. Designing object relationships using extension and interfacing is also undeniably satisfying when many working with many related objects."
+        "desc": "My experience with Java comes from writing Android applications and university coursework. I enjoy using Java when working with multiple people because of its verbose syntax. Designing object relationships using extension and interfacing is also undeniably satisfying when many working with many related objects."
       },
       {
         "title": "HTML, CSS, SASS",
-        "desc": "I've become comfortable with these front-end technologies at both WHOOP and MITRE. When working on any front-end, I enjoy the concrete, visual result that always comes from the work."
+        "desc": "I've become comfortable with these front-end technologies through my experiences at WHOOP and MITRE. With any front-end, I find the concrete, visual result that always comes from the work to be rewarding."
       },
       {
         "title": "Bash, Vim, Git",
-        "desc": "With some occasional Googling, I know my way around Bash and the command line including writing code with Vim, SSHing into machines, and committing/merging/rebasing code with Git. I can grep but I'm not about whip out xargs without some serious thought."
+        "desc": "With some occasional Googling, I know my way around Bash and the command line including writing code with Vim, SSHing into machines, and committing/merging/rebasing code with Git."
       },
       {
         "title": "C++, Racket",
