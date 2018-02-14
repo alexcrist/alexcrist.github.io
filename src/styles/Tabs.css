@@ -1,0 +1,26 @@
+.Tabs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0eae780;
+}
+
+.Tabs-tab {
+  width: 100px;
+}
+
+.Tabs-current {
+  color: #deb2cd;   
+}
+
+.Tabs-title {
+  font-weight: 400;
+  margin: 0;
+  display: inline-block;
+}
+
+.Tabs-title:hover {
+  cursor: pointer;
+  color: #d6ef9f;
+}

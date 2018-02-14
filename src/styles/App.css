@@ -1,0 +1,29 @@
+.App {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  background-color: #141414;
+  color: #f0eae7;
+  padding: 40px;
+}
+
+.App-body {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.App-header {
+  border-bottom: 1px solid #f0eae780;
+}
+
+.App-title {
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .App {
+    padding: 20px;
+  }
+}
