@@ -17,6 +17,6 @@
 
 `npm start`
 
-#### Publishing to GitHub Pages
+#### Creating a Static Build
 
-`npm run publish`
+`npm run build`
