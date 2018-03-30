@@ -1,0 +1,38 @@
+.Projects-title {
+  padding-bottom: 24px;
+}
+
+.Projects-project {
+  margin-bottom: 24px;
+  padding-left: 12px;
+  border-left: 1px solid;
+  padding-bottom: 8px;
+}
+
+.Projects-header {
+  padding-bottom: 12px;
+}
+
+.Projects-name {
+  display: inline-block;
+  font-weight: 400;
+  padding-right: 12px;
+}
+
+.Projects-box {
+  display: inline-block;
+  padding: 0px;
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-top: -4px;
+  border: 2px solid;
+  box-sizing: border-box;
+  transition: all 0.1s linear;
+}
+
+.Projects-header:hover .Projects-box {
+  border-width: 8px;
+}

@@ -1,0 +1,15 @@
+.App {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.App-header {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.App-title {
+  display: inline-block;
+  font-weight: 300;
+  padding-right: 24px;
+}
