@@ -1,6 +1,6 @@
 # alexcrist.github.io
 
-> My personal website. Built with React.
+> My personal website. Built with React. Live [here](https://alexcrist.github.io/).
 
 ## Developement
 
