@@ -11,13 +11,13 @@ class App extends Component {
     super(props);
     this.setTab = this.setTab.bind(this);
     this.tabs = [{
-      name: 'photos',
-      content: Photos
-    }, {
       name: 'projects',
       content: Projects
+    }, {
+      name: 'photos',
+      content: Photos
     }];
-    const currentTab = this.tabs[1];
+    const currentTab = this.tabs[0];
     this.state = { currentTab };
   }
 
@@ -30,7 +30,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1 className="App-title">test</h1>
+          <h1 className="App-title">alexcrist</h1>
           <Tabs 
             tabs={this.tabs} 
             currentTab={this.state.currentTab} 
