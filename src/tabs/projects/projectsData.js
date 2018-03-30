@@ -2,8 +2,8 @@ const projectsData = [{
   name: 'van-drivers',
   url: 'https://github.com/alexcrist/van-drivers',
   description: `A web app (Node, AngularJS, MongoDB) that organizes van
-    scheduling for my university's climbing team. The app is deployed on Heroku
-    and integrates into our team's Slack channel.`
+    scheduling for Northeastern's climbing team. The app is deployed on Heroku
+    and integrates into the team's Slack channel.`
 }, {
   name: 'new-hampshire-wildlife-guide',
   url: 'https://github.com/alexcrist/new-hampshire-wildlife-guide',
@@ -18,7 +18,7 @@ const projectsData = [{
     Pi runs a web server that tells the Pi to take a photo whenever a particular
     route is hit, then serve the photo in an HTTP response. This allows users to
     visit the Pi's internal IP address from their phones when on the same
-    network and view the photo back on their phone immediately.`,
+    network and view the photo back on their phone.`,
 }, {
   name: 'neural-network',
   url: 'https://github.com/alexcrist/neural-network',
@@ -29,10 +29,9 @@ const projectsData = [{
 }, {
   name: 'alexcrist.github.io',
   url: 'https://github.com/alexcrist/alexcrist.github.io',
-  description: `Meta! This is my personal website to summarize my major
-    projects, skills, and work experience. Simple, responsive, and flexible enough
-    to allow variable numbers of sections and sub-sections depending on the data
-    given in the JSON content file.`,
+  description: `The code for this website. The site's goal is showcase content
+    that's important to me. It's built with React because I enjoy writing
+    React code.`,
 }];
 
 export default projectsData;
