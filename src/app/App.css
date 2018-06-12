@@ -1,15 +1,9 @@
 .App {
-  max-width: 1500px;
+  max-width: 700px;
   margin: 0 auto;
+  padding: 50px;
 }
 
-.App-header {
-  display: flex;
-  padding-bottom: 24px;
-}
-
-.App-title {
-  display: inline-block;
-  font-weight: 300;
-  padding-right: 24px;
+.App-section {
+  margin-bottom: 10px;
 }

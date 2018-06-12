@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Tabs from '../tabs/Tabs';
-import Photos from '../tabs/photos/Photos';
-import Projects from '../tabs/projects/Projects';
 
 import './App.css';
 
@@ -9,35 +6,37 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.setTab = this.setTab.bind(this);
-    this.tabs = [{
-      name: 'projects',
-      content: Projects
-    }, {
-      name: 'photos',
-      content: Photos
-    }];
-    const currentTab = this.tabs[0];
-    this.state = { currentTab };
   }
 
-  setTab(tab) {
-    this.setState({ currentTab: tab });
-  }
-  
   render() {
-    const Content = this.state.currentTab.content;
     return (
       <div className="App">
-        <div className="App-header">
-          <h1 className="App-title">alexcrist</h1>
-          <Tabs 
-            tabs={this.tabs} 
-            currentTab={this.state.currentTab} 
-            onClick={this.setTab} />
+        <div className="App-section">
+          <h1>alex crist</h1>
+          boy climber coder likes lists and kind people dislikes cilantro
         </div>
-        <div className="App-body">
-          <Content />
+        <div className="App-section">
+          <h2>my shit</h2>
+          <div><a href="https://alexcrist.github.io/climbing-tick-list/">ticklist</a></div>
+          <div><a href="https://github.com/alexcrist">github</a></div>
+          <div><a href="https://www.instagram.com/alex_crist/">instagram</a></div>
+        </div>
+        <div className="App-section">
+          <h2>gameplan</h2>
+          <div>get birthed</div>
+          <div>sammamish</div>
+          <div>start coding</div>
+          <div>seattle</div>
+          <div>start climbing</div>
+          <div>graduate highschool</div>
+          <div>boston</div>
+          <div>san diego</div>
+          <div>you are <i>here</i></div>
+          <div>boston again</div>
+          <div>graduate neu</div>
+          <div>do cool stuff</div>
+          <div>climb large rocks</div>
+          <div>die eventually</div>
         </div>
       </div>
     );
