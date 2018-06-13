@@ -23,7 +23,7 @@ class App extends Component {
           <div><a href="https://open.spotify.com/user/eviledamame">spotify</a></div>
         </div>
         <div className="App-section">
-          <h2>gameplan</h2>
+          <h2>my life</h2>
           <div>get birthed</div>
           <div>sammamish</div>
           <div>start coding</div>
