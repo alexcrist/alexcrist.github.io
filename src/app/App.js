@@ -20,6 +20,7 @@ class App extends Component {
           <div><a href="https://alexcrist.github.io/climbing-tick-list/">ticklist</a></div>
           <div><a href="https://github.com/alexcrist">github</a></div>
           <div><a href="https://www.instagram.com/alex_crist/">instagram</a></div>
+          <div><a href="https://open.spotify.com/user/eviledamame">spotify</a></div>
         </div>
         <div className="App-section">
           <h2>gameplan</h2>
