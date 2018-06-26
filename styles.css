@@ -1,0 +1,73 @@
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  margin: 0;
+  color: #333;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.container {
+  margin: 0 32px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.words {
+  margin-top: 32px;
+}
+
+.photos a {
+  border: 0;
+}
+
+.word,
+.punctuation {
+  background-color: #ddd;
+  font-size: 50px;
+  display: inline-block;
+  margin-bottom: 65px;
+  margin-right: 30px;
+  line-height: 25px;
+  padding: 0 30px;
+}
+
+.punctuation {
+  padding: 0 5px;
+}
+
+.photo {
+  display: inline-block;
+  height: 386px;
+  margin-right: 30px;
+  margin-bottom: 61px;
+}
+
+.media {
+  display: inline-block;
+  height: 257px;
+  margin-right: 30px;
+  margin-bottom: 58px;
+}
+
+.background {
+  font-family: 'Raleway', sans-serif;
+  z-index: -1;
+  top: -22px;
+  left: -1vw;
+  position: absolute;
+  width: 102vw;
+  height: 150vh;
+  overflow: hidden;
+  word-break: break-word;
+  font-size: 30px;
+  color: #999;
+  line-height: 45px;
+}
+
