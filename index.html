@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>alexcrist</title>
     <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300|Ubuntu+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300|Ubuntu+Mono|Shrikhand" rel="stylesheet">
   </head>
   <body>
     <div class="container">
+
+      <div class="title">t i t l e</div>
 
       <div class="words">
         <div class="word">boy</div>
@@ -39,6 +41,8 @@
         <div class="word">dislikes</div>
         <div class="word">cilantro</div>
       </div>
+
+      <div class="title">d e s c r i p t i o n</div>
 
       <div class="photos">
         <!-- mom and me -->
@@ -89,6 +93,8 @@
           src="./assets/jack.jpg"
         />
       </div>
+
+      <div class="title">e x t e r n a l</div>
 
       <div class="photos">
         <!-- rhye - woman -->
@@ -169,11 +175,22 @@
       crossorigin="anonymous">
     </script>
     <script>
+      var colors = [
+        '#fe0000',
+        '#fdfe02',
+        '#0bff01',
+        '#011efe',
+        '#fe00f6'
+      ];
       var text = '';
       for (var i = 0; i < 5000; i++) {
-        text += 'a l e x c r i s t '
+        var index = i % colors.length;
+        var element =
+          '<span style="color: ' +
+          colors[index] +
+          '">b o i </span>';
+        $('.background').append(element);
       }
-      $('.background').text(text);
     </script>
   </body>
 </html>

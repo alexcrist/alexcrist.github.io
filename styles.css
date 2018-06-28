@@ -19,8 +19,15 @@ a {
   height: 100vh;
 }
 
+.title {
+  font-family: 'Shrikhand', cursive;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
 .words {
-  margin-top: 32px;
+  margin-bottom: 20px;
 }
 
 .photos a {
