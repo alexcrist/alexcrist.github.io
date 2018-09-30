@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import content from './content.js';
-import './index.scss';
+import './index.css';
 
 class Index extends React.Component {
   render() {
