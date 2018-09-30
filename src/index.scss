@@ -1,3 +1,34 @@
-div {
-  margin: auto;
+html {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+  line-height: 16px;
+  color: #1e262c;
+}
+
+.container {
+  max-width: 95%;
+  width: 500px;
+  margin: 36px auto;
+}
+
+.container > * {
+  margin-bottom: 36px;
+}
+
+.links {
+  display: block;
+}
+
+.links a {
+  text-decoration: none;
+  color: #1e262c;
+}
+
+.text {
+  display: block;
+}
+
+.photo {
+  max-width: 500px;
+  border-radius: 3px;
 }

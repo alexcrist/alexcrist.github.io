@@ -8,7 +8,12 @@
     "build": "parcel build index.html"
   },
   "watch": {
-    "serve": "src/*"
+    "serve": {
+      "patterns": [
+        "src/*"
+      ],
+      "extensions": "scss"
+    }
   },
   "repository": {
     "type": "git",
@@ -24,6 +29,8 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "is-url": "^1.2.4",
+    "lodash": "^4.17.11",
     "node-sass": "^4.9.3",
     "npm-watch": "^0.4.0",
     "parcel-bundler": "^1.10.1",
