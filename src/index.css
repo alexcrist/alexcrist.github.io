@@ -20,20 +20,33 @@ body {
   margin-bottom: 36px;
 }
 
-.links {
-  display: block;
-}
-
-.links a {
+a {
   text-decoration: none;
   color: #1e262c;
 }
 
-.text {
-  display: block;
+a:hover {
+  text-decoration: underline;
+}
+
+.tab {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+.tab:hover {
+  color: white;
+  background-color: #1e262c;
+}
+
+.tab-selected {
+  color: white;
+  background-color: #1e262c;
 }
 
 .photo {
-  max-width: 500px;
+  width: 100%;
   border-radius: 3px;
 }
