@@ -26,14 +26,13 @@ export default class Header extends React.Component {
     const github = <a href='https://github.com/alexcrist'>github</a>;
     const instagram = <a href='https://instagram.com/alex_crist'>instagram</a>;
 
-    const home = this.tab('home', 0);
-    const projects = this.tab('projects', 1);
-    const climbing = this.tab('climbing', 2);
+    const portraits = this.tab('portraits', 0);
+    const adventure = this.tab('adventure', 1);
+    const self = this.tab('self', 2);
 
     return [
-        <div>alex crist</div>,
-        <div>{github} . {instagram}</div>,
-        <div>{home} . {projects} . {climbing}</div>,
+        <div>links:&nbsp;&nbsp;{github} . {instagram}</div>,
+        <div>photos: {portraits} . {adventure} . {self}</div>,
     ];
   }
 }

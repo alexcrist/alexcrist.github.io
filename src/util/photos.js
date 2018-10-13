@@ -1,3 +1,4 @@
+import React from 'react';
 import _ from 'lodash';
 
 const rawPhotos = {
@@ -10,7 +11,13 @@ const rawPhotos = {
 
 let photos = {};
 _.forOwn(rawPhotos, (value, key) => {
-  photos[key] = <img className='photo' src={item} />;
+  photos[key] = <img className='photo' src={value} />;
 });
+
+export const urlsToImages = urls => {
+  return _.map(urls, url => {
+    return <img className='photo' src={url} />;
+  });
+};
 
 export default photos;
