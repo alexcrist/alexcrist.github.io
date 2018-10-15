@@ -1,16 +1,15 @@
-import React from 'react';
-import Header from './Header.js';
-import Portraits from './Portraits.js';
-import Adventure from './Adventure.js';
-import Self from './Self.js';
+import React     from 'react';
+import AlexCrist from './AlexCrist.js';
+import Header    from './Header.js';
+import Photos    from './Photos.js';
+import portraits from '../photos/portraits.js';
+import adventure from '../photos/adventure.js';
+import self      from '../photos/self.js';
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.setContentIndex = this.setContentIndex.bind(this);
-    this.state = {
-      contentIndex: 0
-    };
+    this.state = { contentIndex: 0 };
   }
 
   setContentIndex(contentIndex) {
@@ -18,15 +17,19 @@ export default class App extends React.Component {
   }
 
   render() {
-    const Content = [
-      Portraits,
-      Adventure, 
-      Self 
-    ][this.state.contentIndex];
+    const tabs = [
+      <AlexCrist />,
+      <Photos content={portraits} />,
+      <Photos content={adventure} />,
+      <Photos content={self} />
+    ];
+    const tab = tabs[this.state.contentIndex];
+
     return (
       <div className='container'>
-        <Header setContentIndex={this.setContentIndex} />
-        <Content />
+        <Header setContentIndex={this.setContentIndex.bind(this)} />
+        <div className='border'/>
+        {tab}
       </div>
     );
   }

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://alexcrist.github.io/build",
   "dependencies": {
+    "get-age": "^1.0.1",
     "is-url": "^1.2.4",
     "lodash": "^4.17.11",
     "react": "^16.5.2",
