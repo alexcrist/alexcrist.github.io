@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 95%;
+  max-width: calc(100% - 36px);
   width: 500px;
   margin: 36px auto;
 }
@@ -50,4 +50,19 @@ a:hover {
 .photo {
   width: 100%;
   border-radius: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .container {
+    margin: 18px auto;
+  }
+
+  .container > * {
+    margin-bottom: 18px;
+  }
 }
